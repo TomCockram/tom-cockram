@@ -8,12 +8,13 @@ import { ContactComponent } from '../contact/contact.component';
 import { AboutComponent } from '../about/about.component';
 
 const routes: Routes = [
-  { path: '', component: NavBarComponent },
-  { path: '#about', component: AboutComponent },
-  { path: '#contact', component: ContactComponent },
-  { path: '#home', component: HomeComponent },
-  { path: '#skills', component: SkillsComponent },
-  { path: '#writing', component: WritingComponent },
+  // apparently I don't need these
+  // { path: '', component: NavBarComponent },
+  // { path: 'about', component: AboutComponent },
+  // { path: 'contact', component: ContactComponent },
+  // { path: 'home', component: HomeComponent },
+  // { path: 'skills', component: SkillsComponent },
+  // { path: 'writing', component: WritingComponent },
 ];
 
 @NgModule({

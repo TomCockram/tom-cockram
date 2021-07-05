@@ -33,9 +33,9 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes, {
+      // these options are needed but does my nav-bar-routing.module.ts get these?
       scrollPositionRestoration: 'enabled',
       anchorScrolling: 'enabled',
-      scrollOffset: [0, 25],
     }),
     NgbModule,
   ],
