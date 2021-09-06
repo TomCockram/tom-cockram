@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -8,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingComponent } from './writing/writing.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   {
@@ -30,15 +30,7 @@ const routes: Routes = [
     WritingComponent,
     ContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(routes, {
-      // these options are needed but does my nav-bar-routing.module.ts get these?
-      scrollPositionRestoration: 'enabled',
-      anchorScrolling: 'enabled',
-    }),
-    NgbModule,
-  ],
+  imports: [BrowserModule, RouterModule.forRoot(routes), NgbModule],
   providers: [],
   bootstrap: [AppComponent],
 })

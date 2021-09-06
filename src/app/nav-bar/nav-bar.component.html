@@ -1,28 +1,25 @@
-<ul>
-  <li class="nav-item">
-    <!-- this navigates you but navigates you to a new page and doesn't scroll -->
-    <a routerLink="." fragment="about" id="about" routerLinkActive="active"
-      >About</a
-    >
-  </li>
-  <li class="nav-item">
-    <a id="home" routerLink="." fragment="home" routerLinkActive="active"
-      >Home</a
-    >
-  </li>
-
-  <li class="nav-item">
-    <!-- this way updates the url but doesn't scroll -->
-    <a id="skills" routerLink="." fragment="skills">Skills</a>
-  </li>
-  <li class="nav-item">
-    <a (click)="navigate('writing')" id="writing" routerLinkActive="active"
-      >Writing</a
-    >
-  </li>
-  <li class="nav-item">
-    <a id="contact" routerLink="/contact">Contact</a>
-  </li>
-</ul>
-
-<router-outlet></router-outlet>
+<div>
+  <ul>
+    <li>
+      <a id="home" [routerLink]="'home'" routerLinkActive="active">Home</a>
+    </li>
+    <li>
+      <a id="about" [routerLink]="'about'" routerLinkActive="active">About</a>
+    </li>
+    <li>
+      <a id="skills" [routerLink]="'skills'" routerLinkActive="active"
+        >Skills</a
+      >
+    </li>
+    <li>
+      <a id="writing" [routerLink]="'writing'" routerLinkActive="active"
+        >Writing</a
+      >
+    </li>
+    <li>
+      <a id="contact" [routerLink]="'contact'" routerLinkActive="active"
+        >Contact</a
+      >
+    </li>
+  </ul>
+</div>
