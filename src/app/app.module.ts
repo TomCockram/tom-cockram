@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -30,7 +30,7 @@ const routes: Routes = [
     WritingComponent,
     ContactComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes), NgbModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
   bootstrap: [AppComponent],
 })
