@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingComponent } from './writing/writing.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,7 @@ const routes: Routes = [
     SkillsComponent,
     WritingComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
