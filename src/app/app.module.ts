@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingComponent } from './writing/writing.component';
 import { FooterComponent } from './footer/footer.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,7 @@ const routes: Routes = [
     WritingComponent,
     ContactComponent,
     FooterComponent,
+    ComingSoonComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

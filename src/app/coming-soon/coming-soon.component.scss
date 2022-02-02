@@ -1,0 +1,29 @@
+.full-height {
+  height: 100vh;
+  background-color: #fdfd96 !important;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+p {
+  font-size: 72px;
+}
+
+.socials {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
