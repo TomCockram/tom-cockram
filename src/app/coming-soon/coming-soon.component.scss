@@ -8,7 +8,14 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  align-self: center;
+}
+
+.center-x-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
 }
 
 p {
@@ -16,10 +23,12 @@ p {
 }
 
 .socials {
-  text-decoration: none;
+  display: flex;
 }
+
 ul {
   list-style: none;
+  padding-left: 0px;
   li {
     a {
       text-decoration: none;
