@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
+  ids: Array<string> = ['one', 'two'];
+
   constructor() {}
 }

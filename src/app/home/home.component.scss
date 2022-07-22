@@ -1,40 +1,37 @@
-/* layout */
-.parent {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+@import 'src/app/shared/variables';
+
+.background {
+  background-color: $terrra-cotta;
+  color: $independence;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: $deep-champagne;
+  width: 50vw;
+  min-height: 20vh;
+}
+p {
+  margin: 10px;
+  font-size: 18px;
+}
+.profile-picture {
+  margin-left: 10px;
+  border-radius: 60px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  margin: 8px;
 }
 
-.text {
-  grid-area: 1 / 1 / 2 / 3;
-}
-.image {
-  grid-area: 1 / 3 / 3 / 5;
-}
-.contact {
-  grid-area: 2 / 1 / 3 / 3;
-}
-.info {
-  grid-area: 3 / 1 / 4 / 3;
-}
-
-/* random css*/
-
-h1 {
-  padding-left: 5%;
-}
-
-img {
-  border-radius: 10%;
-}
-
-div > div {
-  padding: 5%;
-}
-
-a {
-  font-size: 20px;
-  margin-left: 5%;
-}
+//450 px media query
+// flex direction: column
