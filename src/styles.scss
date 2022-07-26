@@ -17,7 +17,12 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   margin: 0px;
 }

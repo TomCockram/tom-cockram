@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WritingComponent } from './writing/writing.component';
 import { SocialsComponent } from './socials/socials.component';
+import { EsportsComponent } from './esports/esports.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SocialsComponent } from './socials/socials.component';
     FooterComponent,
     ComingSoonComponent,
     SocialsComponent,
+    EsportsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
