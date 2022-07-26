@@ -1,7 +1,8 @@
 @import 'src/app/shared/variables';
 
 .background {
-  background-color: $independence;
+  background-color: $cornflower-blue;
+  color: $independence;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -12,19 +13,6 @@
   min-height: 20vh;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-img {
-  border-radius: 60px;
-  margin-top: 20px;
-  max-width: 100%;
-  min-width: 200px;
-  height: auto;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 p {
   text-align: center;

@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0px;
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+p {
+  margin: auto;
+}
