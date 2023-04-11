@@ -14,6 +14,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WritingComponent } from './writing/writing.component';
 import { SocialsComponent } from './socials/socials.component';
 import { EsportsComponent } from './esports/esports.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { EsportsComponent } from './esports/esports.component';
     ComingSoonComponent,
     SocialsComponent,
     EsportsComponent,
+    ProjectsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
